@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A449DED24551A2C00A1A540 /* infoPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A449DEC24551A2C00A1A540 /* infoPhoto.swift */; };
+		7A449DEF24553DC700A1A540 /* infoUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A449DEE24553DC700A1A540 /* infoUser.swift */; };
+		7A449DF124554EC500A1A540 /* collectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A449DF024554EC500A1A540 /* collectionCell.swift */; };
 		7A597B2824535B8200A9CDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A597B2724535B8200A9CDEF /* AppDelegate.swift */; };
 		7A597B2A24535B8200A9CDEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A597B2924535B8200A9CDEF /* SceneDelegate.swift */; };
-		7A597B2C24535B8200A9CDEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A597B2B24535B8200A9CDEF /* ViewController.swift */; };
 		7A597B2F24535B8200A9CDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A597B2D24535B8200A9CDEF /* Main.storyboard */; };
 		7A597B3224535B8200A9CDEF /* pruebatribal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A597B3024535B8200A9CDEF /* pruebatribal.xcdatamodeld */; };
 		7A597B3424535B8300A9CDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A597B3324535B8300A9CDEF /* Assets.xcassets */; };
 		7A597B3724535B8300A9CDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A597B3524535B8300A9CDEF /* LaunchScreen.storyboard */; };
+		7A597B3F24535C0200A9CDEF /* galeriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A597B3E24535C0200A9CDEF /* galeriaController.swift */; };
+		7A597B4124535C0F00A9CDEF /* favController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A597B4024535C0F00A9CDEF /* favController.swift */; };
+		7A597B432453757C00A9CDEF /* galeriaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A597B422453757C00A9CDEF /* galeriaCell.swift */; };
+		7A597B4524537A5000A9CDEF /* webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A597B4424537A5000A9CDEF /* webservices.swift */; };
+		7A597B4E2453B59A00A9CDEF /* Favoritos+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A597B4C2453B59A00A9CDEF /* Favoritos+CoreDataClass.swift */; };
+		7A597B4F2453B59A00A9CDEF /* Favoritos+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A597B4D2453B59A00A9CDEF /* Favoritos+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A449DEC24551A2C00A1A540 /* infoPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoPhoto.swift; sourceTree = "<group>"; };
+		7A449DEE24553DC700A1A540 /* infoUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoUser.swift; sourceTree = "<group>"; };
+		7A449DF024554EC500A1A540 /* collectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionCell.swift; sourceTree = "<group>"; };
 		7A597B2424535B8200A9CDEF /* pruebatribal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pruebatribal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A597B2724535B8200A9CDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A597B2924535B8200A9CDEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A597B2B24535B8200A9CDEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A597B2E24535B8200A9CDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A597B3124535B8200A9CDEF /* pruebatribal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pruebatribal.xcdatamodel; sourceTree = "<group>"; };
 		7A597B3324535B8300A9CDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A597B3624535B8300A9CDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A597B3824535B8300A9CDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A597B3E24535C0200A9CDEF /* galeriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galeriaController.swift; sourceTree = "<group>"; };
+		7A597B4024535C0F00A9CDEF /* favController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favController.swift; sourceTree = "<group>"; };
+		7A597B422453757C00A9CDEF /* galeriaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galeriaCell.swift; sourceTree = "<group>"; };
+		7A597B4424537A5000A9CDEF /* webservices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webservices.swift; sourceTree = "<group>"; };
+		7A597B4C2453B59A00A9CDEF /* Favoritos+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favoritos+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A597B4D2453B59A00A9CDEF /* Favoritos+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favoritos+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,8 @@
 		7A597B1B24535B8200A9CDEF = {
 			isa = PBXGroup;
 			children = (
+				7A597B4C2453B59A00A9CDEF /* Favoritos+CoreDataClass.swift */,
+				7A597B4D2453B59A00A9CDEF /* Favoritos+CoreDataProperties.swift */,
 				7A597B2624535B8200A9CDEF /* pruebatribal */,
 				7A597B2524535B8200A9CDEF /* Products */,
 			);
@@ -60,12 +78,18 @@
 			children = (
 				7A597B2724535B8200A9CDEF /* AppDelegate.swift */,
 				7A597B2924535B8200A9CDEF /* SceneDelegate.swift */,
-				7A597B2B24535B8200A9CDEF /* ViewController.swift */,
 				7A597B2D24535B8200A9CDEF /* Main.storyboard */,
 				7A597B3324535B8300A9CDEF /* Assets.xcassets */,
 				7A597B3524535B8300A9CDEF /* LaunchScreen.storyboard */,
 				7A597B3824535B8300A9CDEF /* Info.plist */,
 				7A597B3024535B8200A9CDEF /* pruebatribal.xcdatamodeld */,
+				7A597B3E24535C0200A9CDEF /* galeriaController.swift */,
+				7A597B4024535C0F00A9CDEF /* favController.swift */,
+				7A597B422453757C00A9CDEF /* galeriaCell.swift */,
+				7A597B4424537A5000A9CDEF /* webservices.swift */,
+				7A449DEC24551A2C00A1A540 /* infoPhoto.swift */,
+				7A449DEE24553DC700A1A540 /* infoUser.swift */,
+				7A449DF024554EC500A1A540 /* collectionCell.swift */,
 			);
 			path = pruebatribal;
 			sourceTree = "<group>";
@@ -141,10 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A597B2C24535B8200A9CDEF /* ViewController.swift in Sources */,
 				7A597B2824535B8200A9CDEF /* AppDelegate.swift in Sources */,
+				7A597B4E2453B59A00A9CDEF /* Favoritos+CoreDataClass.swift in Sources */,
+				7A449DED24551A2C00A1A540 /* infoPhoto.swift in Sources */,
+				7A597B4124535C0F00A9CDEF /* favController.swift in Sources */,
+				7A597B4F2453B59A00A9CDEF /* Favoritos+CoreDataProperties.swift in Sources */,
+				7A597B4524537A5000A9CDEF /* webservices.swift in Sources */,
 				7A597B3224535B8200A9CDEF /* pruebatribal.xcdatamodeld in Sources */,
+				7A449DF124554EC500A1A540 /* collectionCell.swift in Sources */,
+				7A597B432453757C00A9CDEF /* galeriaCell.swift in Sources */,
 				7A597B2A24535B8200A9CDEF /* SceneDelegate.swift in Sources */,
+				7A597B3F24535C0200A9CDEF /* galeriaController.swift in Sources */,
+				7A449DEF24553DC700A1A540 /* infoUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

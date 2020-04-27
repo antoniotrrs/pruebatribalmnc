@@ -10,4 +10,6 @@ import UIKit
 
 class collectionCell: UICollectionViewCell {
     
+    @IBOutlet var titleColl: UILabel!
+    @IBOutlet var coverimage: UIImageView!
 }
